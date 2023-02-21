@@ -4,10 +4,10 @@ class Config(object):
     API_ID = int(os.environ.get("APP_ID", "6213538"))
     API_HASH = os.environ.get("API_HASH", "8ce3522bd21cc937eee4c68813d501d5")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "6122404059:AAG7Mw9RtMSxl7TT3H3uU2Fj1K2bgz9Ywwc")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOGkBuxv5nutJBM-SkeB52igR6bGSOWdkL1fTrOlOkRGdTL064LBO6T4rLpS1RQFWQrtbNgJfh1JeW-Em1ERv0i9FE-hSlZrFcE_uKCBA1urYinwhGlRfN5zcck8QYvYTqWW7GDdmuysSMAmv8J3JfvwdRjMuWh_Sye9vj7vhnPT1NuG2BAL5hJ8nwKZQhKqgFjzWdnBIKCbYM_Ng7k_del-WF912pONbutM5xe02ve2zFdVZB03-Wv-kytb-33bN7bkclwubwUCwsdEgDojn1O0_VR3IqcxT-dloD0I-BgCPQvx5TGtY3TXWeGGtbgFkmOngvxaARgzEk4jpKdYD7lI4Sq4=")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOLABu3YnjVTB1VCH-UQGozlnEnG-PGymzH9aUSD6GEpfguWMKfa2vcF0K3dzzzx4jnrRoglOo-OPrmsapmQtzYJlPrZEZg5EYR1BQNRYOrntVXfxTz59aoc7vdZ4vSG7P3Sa6yjtGD2O9xWgXlvDyiI6FUY0JukTl4AS-y_mxItkb5y1b54bKI8Nhlf4fx-vHFSMOYTkqDR-zz-Fr2Gia67QTMb9LX2G03YOjJt0_ihVuhET3o7udhvBG89gZs32U4IpIOKTGcf9CF33O2fpHn9EDEt2sw6N6-YNGGtvRfaVUIdjZ8eJKFFpuFM9M9nahVp8909BYQAiUujoCTvBjCxMLGg=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("Music_luffy_bot", "")
     SUPPORT = os.environ.get("SUPPORT", "TheSupportChat") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "TheUpdatesChannel") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/35a7b5d9f1f2605c9c0d3.png")
